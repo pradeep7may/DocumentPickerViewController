@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273600FE1B7A6F0600ACAC46 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 273600FD1B7A6F0600ACAC46 /* 1.png */; };
+		275338891B7A32ED0041363E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275338881B7A32ED0041363E /* main.m */; };
+		2753388C1B7A32ED0041363E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753388B1B7A32ED0041363E /* AppDelegate.m */; };
+		2753388F1B7A32ED0041363E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753388E1B7A32ED0041363E /* ViewController.m */; };
+		275338921B7A32ED0041363E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275338901B7A32ED0041363E /* Main.storyboard */; };
+		275338941B7A32ED0041363E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275338931B7A32ED0041363E /* Images.xcassets */; };
+		275338971B7A32ED0041363E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275338951B7A32ED0041363E /* LaunchScreen.xib */; };
+		275338A31B7A32ED0041363E /* UIDocumentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 275338A21B7A32ED0041363E /* UIDocumentViewTests.m */; };
+		2755DD4D1B7F87180021831D /* testing.doc in Resources */ = {isa = PBXBuildFile; fileRef = 2755DD4C1B7F87180021831D /* testing.doc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2753389D1B7A32ED0041363E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2753387B1B7A32EC0041363E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 275338821B7A32EC0041363E;
+			remoteInfo = UIDocumentView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273600FD1B7A6F0600ACAC46 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		275338831B7A32EC0041363E /* UIDocumentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDocumentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275338871B7A32ED0041363E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275338881B7A32ED0041363E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2753388A1B7A32ED0041363E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2753388B1B7A32ED0041363E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2753388D1B7A32ED0041363E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2753388E1B7A32ED0041363E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		275338911B7A32ED0041363E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		275338931B7A32ED0041363E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		275338961B7A32ED0041363E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2753389C1B7A32ED0041363E /* UIDocumentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDocumentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		275338A11B7A32ED0041363E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275338A21B7A32ED0041363E /* UIDocumentViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDocumentViewTests.m; sourceTree = "<group>"; };
+		275338AC1B7A33770041363E /* UIDocumentView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = UIDocumentView.entitlements; sourceTree = "<group>"; };
+		2755DD4C1B7F87180021831D /* testing.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = testing.doc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275338801B7A32EC0041363E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275338991B7A32ED0041363E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2753387A1B7A32EC0041363E = {
+			isa = PBXGroup;
+			children = (
+				275338851B7A32EC0041363E /* UIDocumentView */,
+				2753389F1B7A32ED0041363E /* UIDocumentViewTests */,
+				275338841B7A32EC0041363E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		275338841B7A32EC0041363E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275338831B7A32EC0041363E /* UIDocumentView.app */,
+				2753389C1B7A32ED0041363E /* UIDocumentViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275338851B7A32EC0041363E /* UIDocumentView */ = {
+			isa = PBXGroup;
+			children = (
+				275338AC1B7A33770041363E /* UIDocumentView.entitlements */,
+				2753388A1B7A32ED0041363E /* AppDelegate.h */,
+				2753388B1B7A32ED0041363E /* AppDelegate.m */,
+				2753388D1B7A32ED0041363E /* ViewController.h */,
+				2753388E1B7A32ED0041363E /* ViewController.m */,
+				275338901B7A32ED0041363E /* Main.storyboard */,
+				273600FD1B7A6F0600ACAC46 /* 1.png */,
+				2755DD4C1B7F87180021831D /* testing.doc */,
+				275338931B7A32ED0041363E /* Images.xcassets */,
+				275338951B7A32ED0041363E /* LaunchScreen.xib */,
+				275338861B7A32EC0041363E /* Supporting Files */,
+			);
+			path = UIDocumentView;
+			sourceTree = "<group>";
+		};
+		275338861B7A32EC0041363E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				275338871B7A32ED0041363E /* Info.plist */,
+				275338881B7A32ED0041363E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2753389F1B7A32ED0041363E /* UIDocumentViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				275338A21B7A32ED0041363E /* UIDocumentViewTests.m */,
+				275338A01B7A32ED0041363E /* Supporting Files */,
+			);
+			path = UIDocumentViewTests;
+			sourceTree = "<group>";
+		};
+		275338A01B7A32ED0041363E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				275338A11B7A32ED0041363E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275338821B7A32EC0041363E /* UIDocumentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275338A61B7A32ED0041363E /* Build configuration list for PBXNativeTarget "UIDocumentView" */;
+			buildPhases = (
+				2753387F1B7A32EC0041363E /* Sources */,
+				275338801B7A32EC0041363E /* Frameworks */,
+				275338811B7A32EC0041363E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIDocumentView;
+			productName = UIDocumentView;
+			productReference = 275338831B7A32EC0041363E /* UIDocumentView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2753389B1B7A32ED0041363E /* UIDocumentViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275338A91B7A32ED0041363E /* Build configuration list for PBXNativeTarget "UIDocumentViewTests" */;
+			buildPhases = (
+				275338981B7A32ED0041363E /* Sources */,
+				275338991B7A32ED0041363E /* Frameworks */,
+				2753389A1B7A32ED0041363E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2753389E1B7A32ED0041363E /* PBXTargetDependency */,
+			);
+			name = UIDocumentViewTests;
+			productName = UIDocumentViewTests;
+			productReference = 2753389C1B7A32ED0041363E /* UIDocumentViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2753387B1B7A32EC0041363E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = iOSBucket.blogspot.in;
+				TargetAttributes = {
+					275338821B7A32EC0041363E = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = L3P59K77L7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					2753389B1B7A32ED0041363E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 275338821B7A32EC0041363E;
+					};
+				};
+			};
+			buildConfigurationList = 2753387E1B7A32EC0041363E /* Build configuration list for PBXProject "UIDocumentView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2753387A1B7A32EC0041363E;
+			productRefGroup = 275338841B7A32EC0041363E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275338821B7A32EC0041363E /* UIDocumentView */,
+				2753389B1B7A32ED0041363E /* UIDocumentViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275338811B7A32EC0041363E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275338921B7A32ED0041363E /* Main.storyboard in Resources */,
+				273600FE1B7A6F0600ACAC46 /* 1.png in Resources */,
+				275338971B7A32ED0041363E /* LaunchScreen.xib in Resources */,
+				2755DD4D1B7F87180021831D /* testing.doc in Resources */,
+				275338941B7A32ED0041363E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753389A1B7A32ED0041363E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2753387F1B7A32EC0041363E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753388F1B7A32ED0041363E /* ViewController.m in Sources */,
+				2753388C1B7A32ED0041363E /* AppDelegate.m in Sources */,
+				275338891B7A32ED0041363E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275338981B7A32ED0041363E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275338A31B7A32ED0041363E /* UIDocumentViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2753389E1B7A32ED0041363E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 275338821B7A32EC0041363E /* UIDocumentView */;
+			targetProxy = 2753389D1B7A32ED0041363E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		275338901B7A32ED0041363E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275338911B7A32ED0041363E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		275338951B7A32ED0041363E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275338961B7A32ED0041363E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275338A41B7A32ED0041363E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rakesh Yadav (JKN3YUGA45)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rakesh Yadav (JKN3YUGA45)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "19acf5fd-5f41-4289-9f58-dea19e062df8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		275338A51B7A32ED0041363E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rakesh Yadav (JKN3YUGA45)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rakesh Yadav (JKN3YUGA45)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "19acf5fd-5f41-4289-9f58-dea19e062df8";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275338A71B7A32ED0041363E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UIDocumentView/UIDocumentView.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIDocumentView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosbucket.testDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		275338A81B7A32ED0041363E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UIDocumentView/UIDocumentView.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIDocumentView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosbucket.testDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		275338AA1B7A32ED0041363E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIDocumentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDocumentView.app/UIDocumentView";
+			};
+			name = Debug;
+		};
+		275338AB1B7A32ED0041363E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIDocumentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDocumentView.app/UIDocumentView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2753387E1B7A32EC0041363E /* Build configuration list for PBXProject "UIDocumentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275338A41B7A32ED0041363E /* Debug */,
+				275338A51B7A32ED0041363E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275338A61B7A32ED0041363E /* Build configuration list for PBXNativeTarget "UIDocumentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275338A71B7A32ED0041363E /* Debug */,
+				275338A81B7A32ED0041363E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275338A91B7A32ED0041363E /* Build configuration list for PBXNativeTarget "UIDocumentViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275338AA1B7A32ED0041363E /* Debug */,
+				275338AB1B7A32ED0041363E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2753387B1B7A32EC0041363E /* Project object */;
+}

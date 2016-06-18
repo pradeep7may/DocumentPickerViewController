@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCf-UC-2R3">
+                                <rect key="frame" x="123" y="194" width="74" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="7aM-li-XCm"/>
+                                    <constraint firstAttribute="height" constant="30" id="qvr-Mo-tc4"/>
+                                </constraints>
+                                <state key="normal" title="Upload file">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapUploadFile:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lcV-pa-TAo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGv-fF-AcF">
+                                <rect key="frame" x="119" y="255" width="93" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jVL-1v-1N0"/>
+                                </constraints>
+                                <state key="normal" title="Download file">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapDownloadFile:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cuM-c2-PxE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1F-kt-PsL">
+                                <rect key="frame" x="122" y="309" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Itf-lg-Yjg"/>
+                                    <constraint firstAttribute="height" constant="30" id="dLn-a1-lb1"/>
+                                    <constraint firstAttribute="width" constant="76" id="wD1-Mx-0tk"/>
+                                </constraints>
+                                <state key="normal" title="Menu View">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapDocumentMenuView:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="M43-Uy-c2s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q1F-kt-PsL" firstAttribute="top" secondItem="wGv-fF-AcF" secondAttribute="bottom" constant="24" id="2fC-V3-KtP"/>
+                            <constraint firstItem="mCf-UC-2R3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="112" id="CCJ-zG-JUw"/>
+                            <constraint firstItem="mCf-UC-2R3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Jf9-eN-o4Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wGv-fF-AcF" secondAttribute="trailing" constant="92" id="Jhd-eo-VMF"/>
+                            <constraint firstItem="q1F-kt-PsL" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="TJ8-qI-osX"/>
+                            <constraint firstItem="mCf-UC-2R3" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="174" id="Ukw-Ha-v0I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mCf-UC-2R3" secondAttribute="trailing" constant="102" id="f02-AJ-igP"/>
+                            <constraint firstItem="wGv-fF-AcF" firstAttribute="top" secondItem="mCf-UC-2R3" secondAttribute="bottom" constant="31" id="qPQ-NO-Oba"/>
+                            <constraint firstItem="wGv-fF-AcF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="103" id="sEp-tt-dyX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CCJ-zG-JUw"/>
+                                <exclude reference="f02-AJ-igP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="438"/>
+        </scene>
+    </scenes>
+</document>
